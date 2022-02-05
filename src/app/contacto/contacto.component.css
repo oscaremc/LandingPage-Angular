@@ -1,0 +1,88 @@
+.container-contacto-titulo{
+    width: 100%;
+    background-color: var(--bs-gray-600);
+    padding: 10px;
+    text-align: center;
+    color: var(--bs-white);
+}
+.container-contacto-text{
+    text-align: center;
+}
+.contacto-text-icon {
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.contacto-text-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto-text-info a{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: solid 2px #fd7e14;
+    padding: 10px;
+}
+.contacto-text-info a:hover{
+    background-color: #fd7e14;
+    box-shadow: 2px 2px 6px #000000;
+    color: white;
+}
+.contacto-text-icon img{
+    width: 30px;
+}
+.container-medio-pago, .container-aliados{
+    height: 80px;
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    justify-content: center;
+}
+.container-medio-pago h3, .container-aliados h3{
+    font-size: 15px;
+    width: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-medio-pago, .img-medio-aliados{
+
+    width: 220px;
+    height: 80px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 5px;
+}
+.medio-pago1{
+    background-image: url(../../assets/pago/baloto.png);
+}
+.medio-pago2{
+    background-image: url(../../assets/pago/bancolombia.png);
+}
+.medio-pago3{
+    background-image: url(../../assets/pago/Western_Union_logo.png);
+}
+.medio-aliados1 {
+    background-image: url(../../assets/aliados/airbnb.png);
+}
+.medio-aliados2 {
+    background-image: url(../../assets/aliados/Booking-.png);
+}
+.medio-aliados3 {
+    background-image: url(../../assets/aliados/trivago.png);
+}
+.container-img-contacto{
+    width: 100%;
+    height: 350px;
+    background-image: url(../../assets/img/galeria/h-img49-galeria.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}

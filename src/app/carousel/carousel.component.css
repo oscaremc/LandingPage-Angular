@@ -1,0 +1,50 @@
+
+.container-carousel-div{
+    position: relative;
+}
+.container-carousel-div img{
+    height: 650px;
+}
+.titulo-portada{
+    position: absolute;
+    top: 60px;
+    right: 190px;
+    text-align: center;
+    z-index: 1;
+}
+.titulo-portada p {
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--bs-white);
+    text-shadow: 6px 1px 6px rgba(0,0,0,1);
+}
+.titulo-portada p span {
+    color: var(--bs-info);
+    text-shadow: 6px 1px 6px rgba(0,0,0,1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.btn-portada{
+    top: 400px;
+    color: white;
+    right: 190px;
+    position: absolute;
+    box-shadow: 2px 2px 6px rgba(0,0,0,1);
+}
+
+
+@media (max-width: 600px) {
+    .container-carousel-div img{
+        height: 300px;
+    }
+    .titulo-portada p {
+        font-size: 2rem;;
+    }
+    .btn-portada{
+        top: 250px;
+        right: 90px;
+        z-index: 1;
+        font-size: 13px;
+    }
+}

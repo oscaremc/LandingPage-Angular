@@ -1,0 +1,59 @@
+.container{
+    border: solid 1px gray;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.container-contacto-titulo{
+    width: 100%;
+    background-color: var(--bs-gray-600);
+    padding: 10px;
+    text-align: center;
+    color: var(--bs-white);
+}
+.container-mapa{
+    text-align: center;
+    margin-top: 10px;
+}
+.container-mapa iframe{
+    width: 500px; 
+    height: 300px;
+    border: 0;
+    border-radius: 4px;
+}
+.mapa-distancias {
+    display: flex;
+    margin: 10px;
+}
+.mapa-distancia-items{
+    margin: auto;
+}
+
+
+@media (max-width: 600px) {
+    .container{
+        width: 90%;
+        display: block;
+        margin: 20px auto;
+    }
+    .container-mapa{
+        margin: auto;
+        text-align: center;
+    }
+    .container-mapa iframe{
+        margin-top: 10px;
+        width: 100%; 
+        height: 300px; 
+        border: 0;
+        border-radius: 4px;
+    }
+    .mapa-distancias{
+        display: flex;
+        flex-direction: column;
+    }
+    .mapa-distancia-items{
+        display: flex;
+        flex-direction: column;
+    }
+}

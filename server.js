@@ -13,7 +13,7 @@ app.use(express.static(__dirname + '/dist/web-bella-vista'));
 
 // Send all requests to index.html
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/web-bella-vista/index.html'));
+  res.sendFile(path.join(__dirname + '/dist/web-bella-vista/src/index.html'));
 });
 
 // default Heroku port

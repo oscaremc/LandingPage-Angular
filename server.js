@@ -4,11 +4,11 @@ const express = require('express');
 const app = express();
 
 // Serve static files
-app.use(express.static(__dirname + '/dist/web-BellaVista'));
+app.use(express.static(__dirname + '/dist/fincabellavista.herokuapp.com'));
 
 // Send all requests to index.html
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/web-BellaVista/index.html'));
+  res.sendFile(path.join(__dirname + '/dist/fincabellavista.herokuapp.com/index.html'));
 });
 
 // default Heroku port

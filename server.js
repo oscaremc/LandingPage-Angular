@@ -4,16 +4,16 @@ const express = require('express');
 const app = express();
 
 // Serve static files
-app.use(express.static(__dirname + '/dist/web-bella-vista'));
+app.use(express.static(__dirname + '/dist/fincaballavista'));
 
 // intentos
-// web-BellaVista
+// fincaballavista
 // web-bella-vista
 // fincabellavista.herokuapp.com
 
 // Send all requests to index.html
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/web-bella-vista/src/index.html'));
+  res.sendFile(path.join(__dirname + '/dist/fincaballavista/index.html'));
 });
 
 // default Heroku port

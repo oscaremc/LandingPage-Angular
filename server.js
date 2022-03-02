@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 // Serve static files
-app.use(express.static(__dirname + '/dist/fincaballavista'));
+app.use(express.static(__dirname + '/dist/fincabellavista'));
 
 // intentos
 // fincaballavista
@@ -13,7 +13,7 @@ app.use(express.static(__dirname + '/dist/fincaballavista'));
 
 // Send all requests to index.html
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/fincaballavista/index.html'));
+  res.sendFile(path.join(__dirname + '/dist/fincabellavista/index.html'));
 });
 
 // default Heroku port
